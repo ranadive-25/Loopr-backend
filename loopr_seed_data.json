@@ -1,0 +1,448 @@
+{
+  "users": [
+    {
+      "_id": "user1",
+      "name": "Laura Mullins",
+      "email": "belinda11@henderson-rich.com",
+      "password": "$l04XiB@3z",
+      "profilePicture": "https://placekitten.com/768/810",
+      "settings": {
+        "theme": "light",
+        "currency": "EUR",
+        "language": "en"
+      }
+    },
+    {
+      "_id": "user2",
+      "name": "Seth Brown",
+      "email": "beverlymcmahon@james-prince.net",
+      "password": "D$V4z(Ne5I",
+      "profilePicture": "https://placeimg.com/815/228/any",
+      "settings": {
+        "theme": "light",
+        "currency": "INR",
+        "language": "en"
+      }
+    },
+    {
+      "_id": "user3",
+      "name": "Travis Clark",
+      "email": "kimberlykeller@yahoo.com",
+      "password": "2*9yI#d!$c",
+      "profilePicture": "https://placekitten.com/334/1023",
+      "settings": {
+        "theme": "light",
+        "currency": "INR",
+        "language": "es"
+      }
+    }
+  ],
+  "wallets": [
+    {
+      "_id": "wallet1",
+      "name": "Spring Wallet",
+      "balance": 2950,
+      "currency": "INR",
+      "type": "Crypto",
+      "user_id": "user3"
+    },
+    {
+      "_id": "wallet2",
+      "name": "Activity Wallet",
+      "balance": 9025,
+      "currency": "INR",
+      "type": "Credit",
+      "user_id": "user3"
+    },
+    {
+      "_id": "wallet3",
+      "name": "Allow Wallet",
+      "balance": 8764,
+      "currency": "EUR",
+      "type": "Cash",
+      "user_id": "user2"
+    },
+    {
+      "_id": "wallet4",
+      "name": "Fund Wallet",
+      "balance": 928,
+      "currency": "EUR",
+      "type": "Bank",
+      "user_id": "user2"
+    },
+    {
+      "_id": "wallet5",
+      "name": "Today Wallet",
+      "balance": 8186,
+      "currency": "EUR",
+      "type": "Credit",
+      "user_id": "user3"
+    },
+    {
+      "_id": "wallet6",
+      "name": "Mother Wallet",
+      "balance": 8311,
+      "currency": "USD",
+      "type": "Credit",
+      "user_id": "user3"
+    },
+    {
+      "_id": "wallet7",
+      "name": "Less Wallet",
+      "balance": 9347,
+      "currency": "EUR",
+      "type": "Bank",
+      "user_id": "user2"
+    },
+    {
+      "_id": "wallet8",
+      "name": "Would Wallet",
+      "balance": 4901,
+      "currency": "INR",
+      "type": "Cash",
+      "user_id": "user2"
+    },
+    {
+      "_id": "wallet9",
+      "name": "Word Wallet",
+      "balance": 3248,
+      "currency": "INR",
+      "type": "Credit",
+      "user_id": "user3"
+    },
+    {
+      "_id": "wallet10",
+      "name": "President Wallet",
+      "balance": 229,
+      "currency": "USD",
+      "type": "Credit",
+      "user_id": "user2"
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2025-05-31T12:14:24.795103",
+      "amount": 3065,
+      "category": "Expense",
+      "status": "Pending",
+      "user_id": "user1",
+      "wallet_id": "wallet5",
+      "description": "Book such deep paper company behind.",
+      "user_profile": "https://dummyimage.com/67x244"
+    },
+    {
+      "date": "2025-06-26T12:14:24.795188",
+      "amount": 4403,
+      "category": "Expense",
+      "status": "Pending",
+      "user_id": "user2",
+      "wallet_id": "wallet6",
+      "description": "Window laugh old off which cold.",
+      "user_profile": "https://www.lorempixel.com/669/70"
+    },
+    {
+      "date": "2025-06-26T12:14:24.795234",
+      "amount": 80,
+      "category": "Expense",
+      "status": "Pending",
+      "user_id": "user2",
+      "wallet_id": "wallet9",
+      "description": "Successful ahead election source network set.",
+      "user_profile": "https://placeimg.com/146/1010/any"
+    },
+    {
+      "date": "2025-06-05T12:14:24.795277",
+      "amount": 4443,
+      "category": "Revenue",
+      "status": "Paid",
+      "user_id": "user1",
+      "wallet_id": "wallet3",
+      "description": "South floor former.",
+      "user_profile": "https://www.lorempixel.com/590/722"
+    },
+    {
+      "date": "2025-06-03T12:14:24.795316",
+      "amount": 1824,
+      "category": "Revenue",
+      "status": "Pending",
+      "user_id": "user2",
+      "wallet_id": "wallet10",
+      "description": "Allow new forget right.",
+      "user_profile": "https://www.lorempixel.com/548/478"
+    },
+    {
+      "date": "2025-06-23T12:14:24.795356",
+      "amount": 3189,
+      "category": "Revenue",
+      "status": "Pending",
+      "user_id": "user3",
+      "wallet_id": "wallet9",
+      "description": "Rate son decade page house rate save.",
+      "user_profile": "https://placeimg.com/183/358/any"
+    },
+    {
+      "date": "2025-06-05T12:14:24.795415",
+      "amount": 3447,
+      "category": "Revenue",
+      "status": "Paid",
+      "user_id": "user2",
+      "wallet_id": "wallet6",
+      "description": "Real animal what some.",
+      "user_profile": "https://placeimg.com/385/691/any"
+    },
+    {
+      "date": "2025-06-06T12:14:24.795455",
+      "amount": 4630,
+      "category": "Expense",
+      "status": "Pending",
+      "user_id": "user3",
+      "wallet_id": "wallet4",
+      "description": "Section century rule yourself citizen.",
+      "user_profile": "https://dummyimage.com/542x839"
+    },
+    {
+      "date": "2025-06-10T12:14:24.795503",
+      "amount": 2444,
+      "category": "Revenue",
+      "status": "Pending",
+      "user_id": "user3",
+      "wallet_id": "wallet8",
+      "description": "Not focus couple it why ready health.",
+      "user_profile": "https://placekitten.com/25/756"
+    },
+    {
+      "date": "2025-06-15T12:14:24.795546",
+      "amount": 1303,
+      "category": "Revenue",
+      "status": "Paid",
+      "user_id": "user1",
+      "wallet_id": "wallet8",
+      "description": "Record quality whatever compare field their environment.",
+      "user_profile": "https://placeimg.com/632/1/any"
+    }
+  ],
+  "messages": [
+    {
+      "user_id": "user3",
+      "title": "Realigned solution-oriented protocol",
+      "content": "Set later rich sort because billion sit. Ahead with early cause recent attorney respond. Cut always moment wait.",
+      "type": "Support",
+      "isRead": true,
+      "createdAt": "2025-06-28T12:14:24.795866"
+    },
+    {
+      "user_id": "user2",
+      "title": "Mandatory fresh-thinking capacity",
+      "content": "Them describe significant read measure candidate TV involve. Agency its everybody spend often. Future final already collection whom.",
+      "type": "Reminder",
+      "isRead": true,
+      "createdAt": "2025-06-28T12:14:24.795926"
+    },
+    {
+      "user_id": "user3",
+      "title": "Streamlined system-worthy circuit",
+      "content": "Can occur his good difference reason. Eye firm about international purpose.",
+      "type": "Reminder",
+      "isRead": true,
+      "createdAt": "2025-06-28T12:14:24.795973"
+    },
+    {
+      "user_id": "user3",
+      "title": "Enhanced attitude-oriented application",
+      "content": "Focus trip board include experience director report. Follow same these once road stage wear.",
+      "type": "Reminder",
+      "isRead": false,
+      "createdAt": "2025-06-28T12:14:24.796018"
+    },
+    {
+      "user_id": "user1",
+      "title": "Enhanced web-enabled intranet",
+      "content": "Turn rise where protect above figure. Both sort data art onto. From letter record truth leave.",
+      "type": "Reminder",
+      "isRead": true,
+      "createdAt": "2025-06-28T12:14:24.796070"
+    },
+    {
+      "user_id": "user3",
+      "title": "Assimilated mobile help-desk",
+      "content": "Someone situation day race prove across. Case attack offer. Soldier create say across respond fire force.",
+      "type": "Reminder",
+      "isRead": true,
+      "createdAt": "2025-06-28T12:14:24.796122"
+    },
+    {
+      "user_id": "user1",
+      "title": "Integrated empowering firmware",
+      "content": "Change apply war music.",
+      "type": "Reminder",
+      "isRead": true,
+      "createdAt": "2025-06-28T12:14:24.796158"
+    },
+    {
+      "user_id": "user3",
+      "title": "Integrated motivating solution",
+      "content": "Operation employee several size. Office term score energy threat I point market. Ten cold thank collection.",
+      "type": "Alert",
+      "isRead": false,
+      "createdAt": "2025-06-28T12:14:24.796220"
+    },
+    {
+      "user_id": "user2",
+      "title": "Total content-based framework",
+      "content": "Same great today four.",
+      "type": "Alert",
+      "isRead": false,
+      "createdAt": "2025-06-28T12:14:24.796255"
+    },
+    {
+      "user_id": "user3",
+      "title": "Virtual multi-tasking product",
+      "content": "Partner inside rate staff me describe box consumer. Author trial support already.",
+      "type": "Alert",
+      "isRead": true,
+      "createdAt": "2025-06-28T12:14:24.796298"
+    }
+  ],
+  "analyticsConfigs": [
+    {
+      "user_id": "user3",
+      "favoriteCharts": [
+        "revenue-vs-expense",
+        "category-breakdown"
+      ],
+      "lastUsedFilters": {
+        "category": "Revenue",
+        "status": "Paid",
+        "wallet_id": "wallet10"
+      }
+    },
+    {
+      "user_id": "user1",
+      "favoriteCharts": [
+        "revenue-vs-expense",
+        "category-breakdown"
+      ],
+      "lastUsedFilters": {
+        "category": "Expense",
+        "status": "Paid",
+        "wallet_id": "wallet4"
+      }
+    },
+    {
+      "user_id": "user1",
+      "favoriteCharts": [
+        "revenue-vs-expense",
+        "category-breakdown"
+      ],
+      "lastUsedFilters": {
+        "category": "Revenue",
+        "status": "Paid",
+        "wallet_id": "wallet2"
+      }
+    },
+    {
+      "user_id": "user1",
+      "favoriteCharts": [
+        "revenue-vs-expense",
+        "category-breakdown"
+      ],
+      "lastUsedFilters": {
+        "category": "Expense",
+        "status": "Paid",
+        "wallet_id": "wallet5"
+      }
+    },
+    {
+      "user_id": "user1",
+      "favoriteCharts": [
+        "revenue-vs-expense",
+        "category-breakdown"
+      ],
+      "lastUsedFilters": {
+        "category": "Expense",
+        "status": "Paid",
+        "wallet_id": "wallet6"
+      }
+    },
+    {
+      "user_id": "user3",
+      "favoriteCharts": [
+        "revenue-vs-expense",
+        "category-breakdown"
+      ],
+      "lastUsedFilters": {
+        "category": "Revenue",
+        "status": "Pending",
+        "wallet_id": "wallet10"
+      }
+    },
+    {
+      "user_id": "user3",
+      "favoriteCharts": [
+        "revenue-vs-expense",
+        "category-breakdown"
+      ],
+      "lastUsedFilters": {
+        "category": "Expense",
+        "status": "Pending",
+        "wallet_id": "wallet9"
+      }
+    },
+    {
+      "user_id": "user1",
+      "favoriteCharts": [
+        "revenue-vs-expense",
+        "category-breakdown"
+      ],
+      "lastUsedFilters": {
+        "category": "Revenue",
+        "status": "Paid",
+        "wallet_id": "wallet1"
+      }
+    },
+    {
+      "user_id": "user2",
+      "favoriteCharts": [
+        "revenue-vs-expense",
+        "category-breakdown"
+      ],
+      "lastUsedFilters": {
+        "category": "Revenue",
+        "status": "Pending",
+        "wallet_id": "wallet10"
+      }
+    },
+    {
+      "user_id": "user1",
+      "favoriteCharts": [
+        "revenue-vs-expense",
+        "category-breakdown"
+      ],
+      "lastUsedFilters": {
+        "category": "Expense",
+        "status": "Paid",
+        "wallet_id": "wallet10"
+      }
+    }
+  ],
+  "settings": [
+    {
+      "user_id": "user1",
+      "notificationsEnabled": false,
+      "preferredCurrency": "EUR",
+      "timezone": "Asia/Bishkek"
+    },
+    {
+      "user_id": "user2",
+      "notificationsEnabled": false,
+      "preferredCurrency": "USD",
+      "timezone": "Africa/Nairobi"
+    },
+    {
+      "user_id": "user3",
+      "notificationsEnabled": false,
+      "preferredCurrency": "EUR",
+      "timezone": "Asia/Saigon"
+    }
+  ]
+}
